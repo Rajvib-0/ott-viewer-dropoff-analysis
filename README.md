@@ -28,3 +28,6 @@ For full details, see [RAJVI_case_study_2.pdf](docs/RAJVI_case_study_2.pdf).
 
 ## Installation and Setup
 1. Clone the repo:
+   ```bash
+   git clone https://github.com/Rajvib-0/ott-viewer-dropoff-analysis
+   
