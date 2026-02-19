@@ -22,12 +22,29 @@ For full details, see [RAJVI_case_study_2.pdf](docs/RAJVI_case_study_2.pdf).
 ## Repository Structure
 - `notebooks/`: Main analysis in Jupyter notebook.
 - `data/`: Dataset (CSV).
-- `docs/`: Case study PDF and presentation slides.
-- `results/`: Output CSV with clusters and plots.
+- `docs/`: Case study PDF.
 - `requirements.txt`: Dependencies.
+
+| Lifecycle Step | Tool(s) Used |
+|----------------|--------------|
+| Ingestion | pandas |
+| Exploratory Analysis | matplotlib, seaborn, pandas |
+| Transformation & Feature Engineering | sklearn.preprocessing (StandardScaler, LabelEncoder),<br>sklearn.decomposition (PCA) |
+| Modeling | sklearn.cluster (KMeans, DBSCAN),<br>sklearn.ensemble (RandomForestClassifier),<br>sklearn.neighbors (NearestNeighbors) |
+| Evaluation | sklearn.metrics (classification_report, confusion_matrix) |
+| Storage | CSV (input/output files) |
+| Visualization | matplotlib, seaborn |
 
 ## Installation and Setup
 1. Clone the repo:
    ```bash
    git clone https://github.com/Rajvib-0/ott-viewer-dropoff-analysis
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the notebook:
+- Open [Notebook](ott_viewers_drop_off.ipynb) in Jupyter Notebook.
+- Ensure the dataset path points to [Data](ott_viewer_dropoff_retention_us_v1.0.csv). 
    
