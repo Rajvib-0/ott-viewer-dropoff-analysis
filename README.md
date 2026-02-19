@@ -24,7 +24,8 @@ For full details, see [RAJVI_case_study_2.pdf](docs/RAJVI_case_study_2.pdf).
 - `data/`: Dataset (CSV).
 - `docs/`: Case study PDF.
 - `requirements.txt`: Dependencies.
-
+  
+## Project Lifecycle & Tools
 | Lifecycle Step | Tool(s) Used |
 |----------------|--------------|
 | Ingestion | pandas |
@@ -46,5 +47,17 @@ For full details, see [RAJVI_case_study_2.pdf](docs/RAJVI_case_study_2.pdf).
 
 3. Run the notebook:
 - Open [Notebook](ott_viewers_drop_off.ipynb) in Jupyter Notebook.
-- Ensure the dataset path points to [Data](ott_viewer_dropoff_retention_us_v1.0.csv). 
-   
+- Ensure the dataset path points to [Data](ott_viewer_dropoff_retention_us_v1.0.csv).
+
+## Analysis
+| Metric | Value |
+|--------|-------|
+| Model Accuracy | 85% |
+| Top Predictors | Cognitive load, Hook strength, Pacing score |
+| Drop-off Reduction Goal | 15-20% in 6 months |
+| High-Risk Genres | Drama, Mystery, Western |
+| Optimal Pacing | 4-6 |
+
+Thanks for checking out the project! Feedback welcome.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
