@@ -42,7 +42,7 @@ As part of my **Introduction to Data Visualization** course assignment, I create
 
 **Live Interactive Dashboard** → [View OTT Viewer Drop-Off Analysis on Tableau Public](https://public.tableau.com/app/profile/rajvi.bujad/vizzes)
 
-**Full PDF with all charts, observations & recommendations** → [pdf](.pdf)
+**Full PDF with all charts, observations & recommendations** → [pdf](ott_idv.pdf)
 
 This Tableau work complements the Python/ML analysis by providing **business storytelling** and **interactive exploration**, while the notebooks focus on statistical modeling and predictive insights.
   
