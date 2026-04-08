@@ -1,7 +1,7 @@
 # Viewer Retention in OTT Platforms: Diagnosing Engagement Pattern
 
 ## Overview
-This capstone project for Winter Consulting 2025 (Consulting & Analytics Club, IIT Guwahati) analyzes viewer drop-off in OTT platforms using data from over 33,000 episodes. The goal is to identify key drivers of retention, segment content via clustering, and propose ML-driven interventions to reduce drop-off rates.
+I made this capstone project for Winter Consulting Workshop 2025 (Consulting & Analytics Club, IIT Guwahati) analyzing viewer drop-off in OTT platforms using data from over 33,000 episodes. The goal is to identify key drivers of retention, segment content via clustering, and propose ML-driven interventions to reduce drop-off rates.
 
 **Key Objectives**:
 - Diagnose high drop-off in genres like Drama and Mystery.
@@ -24,6 +24,27 @@ For full details, see [RAJVI_case_study_2.pdf](docs/RAJVI_case_study_2.pdf).
 - `data/`: Dataset (CSV).
 - `docs/`: Case study PDF.
 - `requirements.txt`: Dependencies.
+
+## Interactive Data Visualization Approach (Tableau)
+
+As part of my **Introduction to Data Visualization** course assignment, I created a complete **interactive Tableau dashboard** using the same 33,171-episode OTT dataset.
+
+### What I Built
+- **3 Professional Dashboards** with **10 business-focused charts**
+- **Dashboard 1**: Where is Drop-off Happening?
+- **Dashboard 2**: Why Are Viewers Dropping Off?
+- **Dashboard 3**: What Should We Do About It?
+
+**Key Tableau Features Used**:
+- Multiple calculated fields (`Drop-Off Rate`, `Skip Intro Label`, `Cognitive Load Group`, `Dropped or Retained`, `Pacing Zone`, `Quadrant Classification`)
+- Box plots, dual-axis charts, heat maps, and intervention matrix
+- Clear observations + actionable recommendations on every chart
+
+**Live Interactive Dashboard** → [View OTT Viewer Drop-Off Analysis on Tableau Public](https://public.tableau.com/app/profile/rajvi.bujad/vizzes)
+
+**Full PDF with all charts, observations & recommendations** → [pdf](.pdf)
+
+This Tableau work complements the Python/ML analysis by providing **business storytelling** and **interactive exploration**, while the notebooks focus on statistical modeling and predictive insights.
   
 ## Project Lifecycle & Tools
 | Lifecycle Step | Tool(s) Used |
@@ -34,7 +55,7 @@ For full details, see [RAJVI_case_study_2.pdf](docs/RAJVI_case_study_2.pdf).
 | Modeling | sklearn.cluster (KMeans, DBSCAN),<br>sklearn.ensemble (RandomForestClassifier),<br>sklearn.neighbors (NearestNeighbors) |
 | Evaluation | sklearn.metrics (classification_report, confusion_matrix) |
 | Storage | CSV (input/output files) |
-| Visualization | matplotlib, seaborn |
+|Visualization | matplotlib, seaborn, **Tableau Public** (3 dashboards, 10 charts)
 
 ## Installation and Setup
 1. Clone the repo:
